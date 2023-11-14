@@ -21,7 +21,7 @@ export default function Generate() {
   };
 
   const sendRequest = async () => {
-    await fetch("http://localhost:8080/generate/addUrl", { //tobe configured
+    await fetch("https://url-store-spring.onrender.com/generate/addUrl", { //tobe configured
       method: "POST",
       headers: {
         "Content-Type": "application/json",
