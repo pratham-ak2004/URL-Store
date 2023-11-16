@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+//import axios from "axios";
 import { Link } from "react-router-dom";
 
 export default function Generate() {
@@ -21,7 +21,7 @@ export default function Generate() {
   };
 
   const sendRequest = async () => {
-    await fetch("https://url-store-spring.onrender.com/generate/addUrl", { //tobe configured
+    await fetch(`${import.meta.env.VITE_ACTIVE_SERVER}/generate/addUrl`, { //tobe configured
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -68,7 +68,7 @@ export default function Generate() {
   if (url.shortUrl === undefined || url.shortUrl === "") {
     urlToDisplay = "";
   } else {
-    urlToDisplay = "http://localhost:5173/" + url.shortUrl; //tobe configured
+    urlToDisplay = `${import.meta.env.VITE_ACTIVE_PAGE}/` + url.shortUrl; //tobe configured
   }
 
   const onCopy = () => {

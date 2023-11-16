@@ -9,7 +9,7 @@ export default function Redirect() {
     useEffect(() => {
       const redirectTo = () => {
         try {
-          window.location.href = `https://url-store-spring.onrender.com/redirect/${target}`; //tobe configured
+          window.location.href = `${import.meta.env.VITE_ACTIVE_SERVER}/redirect/${target}`; //tobe configured
         } catch (error) {
           console.error('Error:', error);
         }
