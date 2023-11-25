@@ -7,7 +7,7 @@ export default function (props) {
         <div>
           <a className="navbar-brand h1" href="#">
             <img
-              src="/public/logo.png"
+              src="/logo.png"
               alt="Logo"
               width="30"
               style={{ marginRight: "5%" }}
