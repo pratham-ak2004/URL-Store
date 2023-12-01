@@ -2,7 +2,7 @@
 
 This is a template website for a <b>URL Shortening</b> built using <b>[Vite](https://vitejs.dev/) + [React](https://react.dev/)</b>. The website is styled using <b>[bootstrap](https://getbootstrap.com/)</b> and uses <b>[react-router-dom](https://www.npmjs.com/package/react-router-dom)</b> to redirect to different pages. This template basically involves two text fields and 3 buttons for performing the basic functioning of a URL Shortening website.
 
-![URL Store](image.png)
+![URL Store](https://github.com/pratham-ak2004/URL-Store/assets/124170443/04fd34fe-2a84-4a22-a91d-640bf3bc561e)
 
 ## Table of contents
 
